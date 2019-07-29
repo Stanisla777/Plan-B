@@ -102,7 +102,7 @@ gulp.task('autoprefixer', function () {
 
     //даем префиксы стилям
         .pipe(autoprefixer({
-            browsers: ['last 2 versions'],
+            browsers: ['last 3 versions'],
             cascade: false
         }))
 
